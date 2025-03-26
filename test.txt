@@ -1,0 +1,22 @@
+PROGRAM prg1
+
+
+STARTMAIN
+
+VARS INTEGER a;
+	a=10;
+	PRINT ("hello",a);
+	
+	FOR i:=2 TO 4 STEP 1
+		a=a+1;
+	ENDFOR
+	a=a+10;
+	
+	IF(a>3) THEN
+	   a=a+1;
+	ENDIF
+	
+	
+	
+ENDMAIN
+
